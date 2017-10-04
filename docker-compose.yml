@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  baldur-terminal:
+    image: ${ORG_NAME}/baldur-terminal
+    ports:
+      - 8000:80
